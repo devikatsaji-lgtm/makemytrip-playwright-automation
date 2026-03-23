@@ -1,0 +1,24 @@
+{
+  "name": "mmt-hotel-scraper",
+  "version": "1.0.0",
+  "description": "Automated script to find the highest-rated hotel with lowest price on MakeMyTrip",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "makemytrip",
+    "hotel",
+    "scraper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.44.0"
+  },
+  "type": "commonjs"
+}
